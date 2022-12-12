@@ -7,7 +7,7 @@ spring:
   application:
     name: RATING-SERVICE
 server:
-  port: 9093
+  port: 8083
 
 
 eureka:
