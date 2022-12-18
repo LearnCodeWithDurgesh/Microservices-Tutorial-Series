@@ -11,7 +11,6 @@ import java.util.List;
 @FeignClient(name = "HOTEL-SERVICE")
 public interface HotelService {
 
-
     @GetMapping("/hotels/{hotelId}")
     Hotel getHotel(@PathVariable("hotelId") String hotelId);
 

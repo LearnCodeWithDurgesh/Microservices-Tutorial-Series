@@ -25,7 +25,6 @@ public class HotelController {
 
 
     //get single
-
     @GetMapping("/{hotelId}")
     public ResponseEntity<Hotel> createHotel(@PathVariable String hotelId) {
         return ResponseEntity.status(HttpStatus.OK).body(hotelService.get(hotelId));
