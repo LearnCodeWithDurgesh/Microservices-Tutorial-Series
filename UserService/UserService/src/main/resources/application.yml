@@ -61,5 +61,15 @@ resilience4j:
         slidingWindowSize: 10
         slidingWindowType: COUNT_BASED
 
+  retry:
+    instances:
+      ratingHotelService:
+        max-attempts: 3
+        wait-duration: 5s
+
+
+
+
+
 
 
